@@ -1,4 +1,7 @@
 # ITCS 6190/8190 - Assignment 1: Containers with Docker
+- Eswarkumarpanta
+- 801505751
+- epanta@charlotte.edu
 
 This project sets up a multi-container stack using Docker Compose consisting of a PostgreSQL database and a Python application. The database is initialized and seeded with trip data, while the Python service connects via service DNS, computes aggregated statistics, prints the summary to standard output, and persists the results to a mounted volume.
 
