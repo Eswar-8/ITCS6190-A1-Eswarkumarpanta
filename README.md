@@ -8,7 +8,7 @@ Run the entire pipeline (cleans old volumes, builds images, runs containers, gen
 
 launch using Docker Compose directly:
 
-docker compose up --build
+docker compose up
 
 stop containers:
 
