@@ -6,17 +6,11 @@ This project sets up a multi-container stack using Docker Compose consisting of 
 
 Run the entire pipeline (cleans old volumes, builds images, runs containers, generates output):
 
-make
-
-Alternatively, launch using Docker Compose directly:
+launch using Docker Compose directly:
 
 docker compose up --build
 
-Stop containers and clean up mounted volume data:
-
-make clean
-
-Or stop containers without removing generated files:
+stop containers:
 
 docker compose down
 
